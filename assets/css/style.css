@@ -1,27 +1,28 @@
-.side {
-    display: flex;
-    flex-direction: row;
+.opacity {
+    background: #303D45;
+    opacity: 0.7;
+    z-index: -10;
 }
 
-.half {
-    display: flex;
-    flex-direction: column;
+body{
+    background-image: url('../img/pexels-photo-730256.png');
 }
 
-.social {
-    display: flex;
-    flex-direction: row;
-    margin-right: 2%;
-}
-
-.imgSide {
-    height: 200px;
-    width: 200px;
-}
-
-
-.bottom {
-    position: fixed;
+.iris {
+    background-image:  url(../img/image-15-12-21-11-53-1.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    position:relative;
     bottom: 0;
-    width: 50%;
+}
+
+.iris p{
+    margin-top: 80%;
+    margin-bottom: 0;
 }
