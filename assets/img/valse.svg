@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="573" height="103" viewBox="0 0 573 103">
+  <defs>
+    <filter id="Les_Manutiens" x="207" y="26" width="136" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#575151" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Les_Manutiens-2" x="207" y="26" width="136" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Calque_2" data-name="Calque 2" transform="translate(234 62)">
+    <g id="Calque_2-2" data-name="Calque 2">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="1.24" cy="1.24" r="1.24" transform="translate(0 0)" fill="#fff"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="1.24" cy="1.24" r="1.24" transform="translate(0 7.09)" fill="#fff"/>
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="1.24" cy="1.24" r="1.24" transform="translate(0 14.07)" fill="#fff"/>
+    </g>
+  </g>
+  <rect id="Rectangle_15" data-name="Rectangle 15" width="573" height="103" rx="21" fill="#303d45"/>
+  <text id="La_valse_Londonienne" data-name="La valse Londonienne" transform="translate(196 26)" fill="#fff" font-size="22" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">La</tspan><tspan y="0" font-family="AlNile-Bold, Al Nile"> </tspan><tspan y="0">valse</tspan><tspan y="0" font-family="AlNile-Bold, Al Nile"> </tspan><tspan y="0">Londonienne</tspan></text>
+  <g data-type="innerShadowGroup">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Les_Manutiens)">
+      <text id="Les_Manutiens-3" data-name="Les Manutiens" transform="translate(216 48)" fill="#faf7f7" font-size="18" font-family="ArialMT, Arial" opacity="0.999"><tspan x="0" y="0">Les Manutiens</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Les_Manutiens-2)">
+      <text id="Les_Manutiens-4" data-name="Les Manutiens" transform="translate(216 48)" fill="#fff" font-size="18" font-family="ArialMT, Arial" opacity="0.999"><tspan x="0" y="0">Les Manutiens</tspan></text>
+    </g>
+  </g>
+  <line id="Ligne_197" data-name="Ligne 197" x2="342" transform="translate(125.5 60.5)" fill="none" stroke="#707070" stroke-width="3"/>
+  <line id="Ligne_198" data-name="Ligne 198" x2="64" transform="translate(125.5 60.5)" fill="none" stroke="#ebdcdc" stroke-width="3"/>
+  <text id="_01:23" data-name="01:23" transform="translate(126 82)" fill="#c4c4c4" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">01:23</tspan></text>
+  <path id="_03:38" data-name="03:38" d="M.675,8.44q0-2.05.425-3.292T2.361,3.242Q3.2,2.578,4.47,2.6q.937.016,1.644.4T7.282,4.1q.461.714.723,1.732t.262,2.738q0,2.035-.421,3.278t-1.259,1.91q-.838.667-2.117.643-1.684-.031-2.644-1.247Q.675,11.7.675,8.44Zm1.469.026q0,2.847.671,3.8t1.656.973q.985.018,1.656-.916T6.8,8.549q0-2.856-.671-3.806T4.454,3.775q-.985-.017-1.572.8Q2.143,5.619,2.143,8.466ZM9.73,11.253l1.431-.164q.246,1.212.839,1.755t1.444.559q1.01.018,1.707-.663t.7-1.708q0-.979-.645-1.626t-1.639-.665q-.406-.007-1.01.14l.159-1.244q.143.018.231.02.915.016,1.647-.444t.732-1.447q0-.782-.533-1.3t-1.376-.537q-.835-.015-1.392.5T11.3,5.97L9.873,5.692q.262-1.424,1.193-2.192t2.314-.745q.955.017,1.758.437t1.229,1.131q.426.71.426,1.5,0,.75-.406,1.359t-1.2.958q1.034.255,1.608,1.012t.573,1.878q0,1.516-1.114,2.55t-2.817,1q-1.535-.028-2.549-.954T9.73,11.253Zm9.85-3.533V6.1l1.633.029V7.748Zm0,6.768V12.868l1.633.03v1.619ZM23.324,11.5l1.434-.164q.247,1.213.841,1.757t1.447.56q1.013.019,1.711-.664t.7-1.71q0-.98-.646-1.628t-1.643-.666q-.407-.007-1.013.14l.159-1.246q.144.018.231.02.917.016,1.651-.445T28.928,6q0-.782-.534-1.306t-1.38-.538q-.837-.015-1.4.5T24.9,6.21l-1.434-.278q.263-1.425,1.2-2.2t2.32-.746q.957.017,1.762.438T29.977,4.56q.427.711.427,1.5,0,.751-.407,1.36t-1.2.959q1.037.256,1.611,1.013t.574,1.88q0,1.518-1.117,2.553t-2.823,1q-1.539-.028-2.555-.955T23.324,11.5ZM34.609,8.476q-.894-.34-1.325-.949t-.431-1.447q0-1.265.918-2.111t2.443-.819q1.534.027,2.468.925t.935,2.164q0,.807-.427,1.4t-1.3.9q1.079.367,1.642,1.153t.563,1.861q0,1.487-1.063,2.48t-2.8.961q-1.733-.032-2.794-1.067T32.382,11.37q0-1.131.579-1.883T34.609,8.476ZM34.322,6.06q0,.822.535,1.354t1.389.547q.831.015,1.362-.494t.531-1.26q0-.783-.547-1.327T36.23,4.322q-.822-.014-1.365.5T34.322,6.06ZM33.859,11.4q0,.609.291,1.183t.866.9q.575.323,1.238.335,1.03.019,1.7-.625t.671-1.657q0-1.028-.691-1.713t-1.729-.7q-1.014-.018-1.681.634T33.859,11.4Z" transform="translate(426.724 68)" fill="#c4c4c4"/>
+  <g id="Calque_2-3" data-name="Calque 2" transform="translate(203.492 69)">
+    <g id="Calque_2-4" data-name="Calque 2">
+      <path id="Tracé_14" data-name="Tracé 14" d="M13.38,0V4.71l3.94-2.36Z" fill="#fff"/>
+      <path id="Tracé_15" data-name="Tracé 15" d="M1.12,11.5A6,6,0,0,1,6.28,2.35h7.1" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+      <path id="Tracé_16" data-name="Tracé 16" d="M6.23,16.58V11.87L2.29,14.23Z" fill="#fff"/>
+      <path id="Tracé_17" data-name="Tracé 17" d="M18.49,5.08a6,6,0,0,1-5.16,9.15H6.23" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+  </g>
+  <g id="Calque_2-5" data-name="Calque 2" transform="translate(258.756 69)">
+    <g id="Calque_2-6" data-name="Calque 2">
+      <path id="Tracé_7" data-name="Tracé 7" d="M17.32.3,3.23,7.94V0H0V18.43H3.23V10.14l14.09,8.58Z" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Calque_2-7" data-name="Calque 2" transform="translate(311.956 69)">
+    <g id="Calque_2-8" data-name="Calque 2">
+      <path id="Tracé_5" data-name="Tracé 5" d="M0,18.43l14.09-7.65v7.94h3.23V.3H14.09V8.58L0,0Z" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Calque_2-9" data-name="Calque 2" transform="translate(364.656 72.31)">
+    <g id="Calque_2-10" data-name="Calque 2">
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="1.82" cy="1.82" r="1.82" transform="translate(9.1 0.5)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="1.82" cy="1.82" r="1.82" transform="translate(0.5 4.7)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="1.82" cy="1.82" r="1.82" transform="translate(9.1 9.05)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Ligne_7" data-name="Ligne 7" y1="3.05" x2="5.17" transform="translate(3.97 2.7)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Ligne_8" data-name="Ligne 8" x1="5.17" y1="3.05" transform="translate(3.97 7.29)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+  <g id="Calque_2-11" data-name="Calque 2" transform="translate(496.501 41.5)">
+    <g id="Calque_2-12" data-name="Calque 2">
+      <path id="Tracé_4" data-name="Tracé 4" d="M18.05,5.58C18.05,2.94,16.37.5,13.51.5c-1.6,0-3.64,1.61-4.22,1.61S6.86.56,5.26.56a4.91,4.91,0,0,0-4.76,5c0,3.47,7.68,10.5,7.68,10.5a1.47,1.47,0,0,0,2.2,0S18.05,9,18.05,5.58Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
