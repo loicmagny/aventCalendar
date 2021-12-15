@@ -1,0 +1,30 @@
+.side {
+    display: flex;
+    flex-direction: row;
+}
+
+.half {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    flex-direction: row
+}
+
+.imgSide {
+    height: 200px;
+    width: 200px;
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+}

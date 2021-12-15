@@ -6,50 +6,75 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calendrier</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
 
     <body>
+        <main class="test">
 
-        <main>
-            <div class="side">
-                <ul>
-                    <li>Accueil</li>
-                    <li>Téléchargements</li>
-                    <li>Documentation</li>
-                    <li>Recherche</li>
-                </ul>
-                <div class="row">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
+            <ul id="slide-out" class="sidenav sidenav-fixed">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="images/office.jpg">
+                        </div>
+                        <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                        <a href="#name"><span class="white-text name">John Doe</span></a>
+                        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div>
+                </li>
+                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                <li><a href="#!">Second Link</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            </ul>
+            <!-- <div class="side">
+                <div class="half">
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Téléchargements</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Recherche</a></li>
+                    </ul>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://fr-fr.facebook.com/LaManuFormation/"><i class="fa-brands fa-facebook"></i></a>
+                        <a
+                            href="https://twitter.com/LaManuFormation?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <img class="imgSide img-fluid" src="assets/img/GettyImages-867021370.jpg" />
                 </div>
-                <img src="#" />
+                <div class="half">
+                    <img src="#">
+                    <p>@Enzo43</p>
+                </div>
+            </div> -->
+            <div class="container">
                 <div class="mid">
                     <div class="top">
                         <!-- background image -->
                     </div>
                     <div class="bottom">
-                        <h2>Playlist de Noël</h2>
-                        <!-- carousel jours -->
+                        <div class="carousel">
+                            <a class="carousel-item" href="#one!"><img src="assets/img/GettyImages-867021370.jpg"></a>
+                            <a class="carousel-item" href="#two!"><img src="assets/img/téléchargé.jpg"></a>
+                            <a class="carousel-item" href="#three!"><img src="assets/img/random.jpg"></a>
+                        </div>
                     </div>
                 </div>
+            </div>
         </main>
+        </div>
     </body>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/DOM.js"></script>
 
 </html>
