@@ -1,0 +1,27 @@
+.side {
+    display: flex;
+    flex-direction: row;
+}
+
+.half {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+}
+
+.imgSide {
+    height: 200px;
+    width: 200px;
+}
+
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+}
