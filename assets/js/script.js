@@ -4,12 +4,14 @@ $(document).ready(function () {
 		{
 			date: 01,
 			title: 'STRING_TYPE abc',
-			src: 'img1'
+			src: 'img1',
+			gift: 'https://www.cood.fr/'
 		},
 		{
 			date: 02,
 			title: 'STRING_TYPE abc',
-			src: 'img2'
+			src: 'img2',
+			gift: 'https://www.youtube.com/watch?v=Tnym_6qCcNE'
 		},
 		{
 			date: 03,
@@ -74,52 +76,64 @@ $(document).ready(function () {
 		{
 			date: 15,
 			title: 'STRING_TYPE abc',
-			src: 'img15'
+			src: 'img15',
+			title: 'Web Designr',
+			gift: 'https://www.youtube.com/watch?v=UEHyHxqbtyg '
 		},
 		{
 			date: 16,
 			title: 'STRING_TYPE abc',
-			src: 'img16'
+			src: 'img16',
+			gift: 'https://www.cidj.com/metiers/web-designer'
 		},
 		{
 			date: 17,
 			title: 'STRING_TYPE abc',
-			src: 'img17'
+			src: 'img17',
+			gift: 'https://www.cidj.com/metiers/web-designer'
 		},
 		{
 			date: 18,
 			title: 'STRING_TYPE abc',
-			src: 'img18'
+			src: 'img18',
+			gift: 'https://getmimo.com/'
 		},
 		{
 			date: 19,
 			title: 'STRING_TYPE abc',
-			src: 'img19'
+			src: 'img19',
+			gift: '1994: Le premier vrai achat sur le web concernait un CD de Sting.'
 		},
 		{
 			date: 20,
 			title: 'STRING_TYPE abc',
-			src: 'img20'
+			src: 'img20',
+			gift: 'Il existe des milliers de langages web'
+
 		},
 		{
 			date: 21,
 			title: 'STRING_TYPE abc',
-			src: 'img21'
+			src: 'img21',
+			gift: 'Il existe des milliers de langages web'
 		},
 		{
 			date: 22,
 			title: 'STRING_TYPE abc',
-			src: 'img22'
+			src: 'img22',
+			gift: 'https://www.microsoft.com/fr-fr/makecode/'
 		},
 		{
 			date: 23,
 			title: 'STRING_TYPE abc',
-			src: 'img23'
+			src: 'img23',
+			gift: 'https://www.udemy.com/'
 		},
 		{
 			date: 24,
 			title: 'STRING_TYPE abc',
-			src: 'img24'
+			src: 'img24',
+			gift: 'https://www.webetsolutions.com/blog/8-anecdotes-google/'
 		}
 	];
 	
@@ -153,9 +167,9 @@ $(document).ready(function () {
 					'	<div class="modal-content">' +
 					'		<h4>' + 
 					datas[i].date + ' Décembre 2021' +
-					'</h4>' + 'Il reste ' +  daysBeforeNoel + ' jours avant de découvrir tes cadeaux '+
+					'</h4>' + 'Il reste ' +  daysBeforeNoel + ' jours avant de découvrir tes cadeaux '
 					 
-					'		<p>A bunch of text</p>' +
+					+
 					'	</div>' +
 					'	<div class="modal-footer">' +
 					'		<a href="#!" class="modal-close waves-effect waves-green btn-flat">' +
